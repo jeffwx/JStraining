@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.flex-container {
+  		display: -webkit-flex; /* Safari */
+  		display: flex;
+  		-webkit-flex-direction: row; /* Safari */
+  		flex-direction: row;
+	}
+
+	.box {
+		background-color: #ffd2ff;
+		margin: 0 0 55px;
+		display: flex;
+	}
+	.box-tall {
+		height: 800px;
+	}
+	.box-item {
+		width: 200px;
+		height: 200px;
+		line-height: 200px;
+		vertical-align: middle;
+		margin: 5px;
+		background-color: #ffd200;
+		font-size: 100px;
+		color: white;
+		text-align: center;
+	}
+
+	.box-1 {
+		display: -webkit-flex; /* Safari */
+  		display: flex;
+  		-webkit-flex-direction: column; /* Safari */
+  		flex-direction: column;
+  		-webkit-flex-wrap: nowrap; /* Safari */
+  		flex-wrap:         nowrap;
+	}
+
+
+</style>
+<body>
+	<div class="box box-1">
+		<div class="box-item">1</div>
+		<div class="box-item">2</div>
+		<div class="box-item">3</div>
+		<div class="box-item">4</div>
+	</div>
+</body>
+</html>

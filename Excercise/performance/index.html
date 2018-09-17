@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#rect{
+			/*position: relative;
+			top: 10px;*/
+			transform: translateY(10px);
+			width: 100px;
+			height: 100px;
+			background: blue;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+<dir id="rect"></dir>
+<script type="text/javascript">
+	setTimeout(() => {
+		//document.getElementById('rect').style.top = "100px";
+		document.getElementById('rect').style.transform = "translateY(100px)";
+	},2000)
+</script>
+</body>
+</html>
